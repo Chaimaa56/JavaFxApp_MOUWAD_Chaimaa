@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.emsi.scientist_manage.view.UserController"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox  fx:id="vBox" layoutX="131.0" layoutY="23.0" prefHeight="288.0" prefWidth="266.0">
+        <children>
+            <Label text="Username"></Label>
+            <TextField fx:id="name" />
+            <Label text="Password"></Label>
+            <PasswordField fx:id="password"/>
+            <Button fx:id="btnSignIn"  mnemonicParsing="false" onAction="#Connect" text="Sign-in" />
+        </children></VBox>
+
+</AnchorPane>

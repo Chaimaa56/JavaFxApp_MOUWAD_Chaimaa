@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.skin.TabPaneSkin.TabControlButtons?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.emsi.scientist_manage.view.ScientistController">
+<VBox>
+    <HBox>
+        <Button fx:id="btnAdd" layoutX="14.0" layoutY="373.0" mnemonicParsing="false" onAction="#AddScientist" prefHeight="25.0" prefWidth="68.0" text="Add" />
+        <Button fx:id="btnRestore" layoutX="92.0" layoutY="373.0" mnemonicParsing="false" onAction="#RestoreRows" text="Restore Rows" />
+        <Button fx:id="btnDelete" layoutX="191.0" layoutY="373.0" mnemonicParsing="false" onAction="#DeleteScientist" text="Delete selected Rows" />
+        <Button fx:id="btnUpdate" layoutX="191.0" layoutY="373.0" text="Update Selected rows" onAction="#UpdateScientist" />
+    </HBox>
+    <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="355.0" prefWidth="700">
+        <columns>
+            <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="name" prefWidth="100.0" text="Name" />
+            <TableColumn fx:id="yearsOfExperience" prefWidth="75.0" text="Years Of Experience" />
+            <TableColumn fx:id="fieldOfStudy" prefWidth="75.0" text="Field Of Study" />
+            <TableColumn fx:id="researchInterests" prefWidth="75.0" text="Research Interests" />
+            <TableColumn fx:id="publications" prefWidth="75.0" text="Publications" />
+            <TableColumn fx:id="awardsAndHonors" prefWidth="75.0" text="Awards And Honors" />
+        </columns>
+    </TableView>
+<HBox>
+    <Button fx:id="btnImport" layoutX="191.0" layoutY="373.0" text="Import Data" onAction="#Import" />
+    <Button fx:id="btnExport" layoutX="191.0" layoutY="373.0" text="Export Data" onAction="#Export" />
+
+</HBox>
+</VBox>
+</AnchorPane>

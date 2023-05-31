@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchor" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.emsi.scientist_manage.view.ScientistFormController">
+   <children>
+      <VBox  fx:id="vBox" layoutX="131.0" layoutY="23.0" prefHeight="288.0" prefWidth="266.0">
+         <children>
+            <Label text="Name"></Label>
+            <TextField fx:id="name" />
+            <Label text="Field Of Study"></Label>
+            <TextField fx:id="field"/>
+            <Label text="Research Interests"></Label>
+            <TextField fx:id="research" />
+            <Label text="Years Of Experience"></Label>
+            <TextField fx:id="years"/>
+            <Label text="Publications"></Label>
+            <TextField fx:id="pub"/>
+            <Label text="Awards And Honors"></Label>
+            <TextField fx:id="awards"/>
+            <Button fx:id="btnAdd"  mnemonicParsing="false" onAction="#AddScientist" text="Add" />
+         </children></VBox>
+   </children>
+</AnchorPane>

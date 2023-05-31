@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Marie Curie",
+    "fieldOfStudy": "Physics",
+    "yearsOfExperience": 20,
+    "researchInterests": "Nuclear physics",
+    "publications": 100,
+    "awardsAndHonors": 3
+  },
+  {
+    "name": "Albert Einstein",
+    "fieldOfStudy": "Physics",
+    "yearsOfExperience": 25,
+    "researchInterests": "Theoretical physics",
+    "publications": 30,
+    "awardsAndHonors": 5
+  },
+  {
+    "name": "Ada Lovelace",
+    "fieldOfStudy": "Computer Science",
+    "yearsOfExperience": 10,
+    "researchInterests": "Computer programming",
+    "publications": 50,
+    "awardsAndHonors":4
+  }
+]

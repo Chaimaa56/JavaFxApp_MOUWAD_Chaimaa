@@ -1,0 +1,21 @@
+Environmental Science | 5 | Climate Change | 1 | e | 5
+Psychology | 20 | Cognitive Neuroscience | 3 | Michael Anderson | 3
+Chemistry | 12 | Organic Chemistry | 3 | Sarah Johnson | 5
+Biology | 8 | Genetics | 3 | David Johnson | 10
+Physics | 15 | Quantum Mechanics | 2 | Jane Smith | 34
+Computer Science | 10 | Artificial Intelligence | 2 | John Doe | 4
+Physics | 20 | Nuclear physics | 100 | Marie Curie | 3
+Physics | 25 | Theoretical physics | 30 | Albert Einstein | 5
+we | 45 | r | 2 | we | 3
+Physics | 20 | Nuclear physics | 100 | Marie Curie | 2
+Physics | 25 | Theoretical physics | 300 | Albert Einstein | 2
+Computer Science | 10 | Computer programming | 50 | Ada Lovelace | 2
+Physics | 20 | Nuclear physics | 100 | Marie Curie | 2
+Physics | 25 | Theoretical physics | 300 | Albert Einstein | 2
+Computer Science | 10 | Computer programming | 50 | Ada Lovelace | 2
+Biology | 8 | Genetics and Molecular Biology | 100 | Emily Chen | 4
+Computer Science | 23 | Artificial Intelligence | 30 | Sophia Ramirez | 8
+Mathematics | 20 | Algebra and Mathematics | 10 | Muhammad al-Khwarizmi | 3
+Physics | 20 | Nuclear physics | 100 | Marie Curie | 3
+Physics | 25 | Theoretical physics | 30 | Albert Einstein | 5
+Computer Science | 10 | Computer programming | 50 | Ada Lovelace | 4

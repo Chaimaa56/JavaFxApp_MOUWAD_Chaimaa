@@ -1,0 +1,3 @@
+Physics | 20 | Nuclear physics | 100 | Marie Curie | 2
+Physics | 25 | Theoretical physics | 300 | Albert Einstein | 2
+Computer Science | 10 | Computer programming | 50 | Ada Lovelace | 2
